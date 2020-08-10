@@ -126,7 +126,7 @@ public class frmLogin extends javax.swing.JFrame {
        
         String TenDangNhap = txtTenDangNhap.getText();
         String Password = String.valueOf(txtPassword.getPassword());
-        
+        /////
         if(bll_NhanVien.KiemTraThongTin(TenDangNhap, Password)){
             String KetQua = bll_NhanVien.DangNhap(TenDangNhap, Password);
             if(KetQua.isEmpty()){
